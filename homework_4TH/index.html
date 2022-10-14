@@ -11,7 +11,31 @@
     <header class="headerTop">
         <div class="container">
             <h1>HTML5 Семантичні елементи</h1>
-            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#browsers">Підтримка браузерів</a>
+                    </li>
+                    <li>
+                        <a href="#newElem">Нові додані елементи</a>
+                    </li>
+                    <li>
+                        <a href="#sectionElem">&lt;Section&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#articleElem">&lt;Article&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#headerElem">&lt;Header&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#footerElem">&lt;Footer&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#extra">Екстра завдання</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
@@ -25,7 +49,7 @@
                             визначає його зміст.</p>
             </div>
         </section>
-        <section class="compatibility">
+        <section class="compatibility" id="browsers">
             <div class="container">
                 <h2>Підтримка браузерів</h2>
                 <img src="./images/browserStack.png" alt="Stack of browsers" width="200">
@@ -35,7 +59,7 @@
                     <p>Прочитайте про це в <a href="https://www.blogger.com/blog/page/edit/2590532390801722394/850003172824707311#" target="_blank">підтримці браузера HTML5</a> .</p>
             </div>
         </section>
-        <section class="newElements">
+        <section class="newElements" id="newElem">
             <div class="container">
                 <h2>Нові семантичні елементи в HTML5</h2>
                 <p>HTML5 пропонує нові семантичні елементи для визначення різних частин
@@ -56,7 +80,7 @@
                     </ul>
             </div>
         </section>
-        <section class="sectionElement">
+        <section class="sectionElement" id="sectionElem">
             <div class="container">
                 <h2>HTML5 &lt;section&gt; елемент</h2>
                 <p>Елемент &lt;section&gt;визначає розділ в документі.</p>
@@ -67,7 +91,7 @@
                         <img src="./images/exampleSection.png" alt="Section Example" width="600">
             </div>
         </section>
-        <section class="articleElement">
+        <section class="articleElement" id="articleElem">
             <div class="container">
                 <h2>HTML5 &lt;article&gt; елемент</h2>
                 <p>Елемент &lt;article&gt;визначає незалежний, автономний вміст.</p>
@@ -88,8 +112,9 @@
                     <img src="./images/exampleArticle.png" alt="Article Example" width="600">
             </div>
         </section>
-        <section class="headerElement">
+        <section class="headerElement" id="headerElem">
             <div class="container">
+                <h2>HTML5 &lt;header&gt; елемент</h2>
                 <p>Елемент &lt;header&gt;задає заголовок для документа або розділу.</p>
                 <p>Елемент &lt;header&gt;повинен використовуватися в якості контейнера для
                     вступного змісту.</p>
@@ -98,7 +123,7 @@
                     <img src="./images/exampleHeader.png" alt="Header Example" width="600">
             </div>
         </section>
-        <section>
+        <section class="footerElement" id="footerElem">
             <div class="container">
                 <h2>HTML5 &lt;footer&gt; елемент</h2>
                 <p>Елемент &lt;footer&gt;вказує нижній колонтитул для документа або розділу.</p>
@@ -109,11 +134,15 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="extraEx" id="extra">
         <div class="container">
-            <p align="center">Thank you for reading this copy-paste topic ^_^</p>
+            <p align="center">Thank you for reading this copy-paste topic ^_^  
+                <a href="#">Click this thing to go on Top ↑</a>
+            </p>
+            
             <iframe src="./extraFolder/index.html" frameborder="0" width="100%"></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/dEBVe8Ij7JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
         </div>
     </footer>
 </div>
