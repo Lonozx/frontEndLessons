@@ -1,0 +1,41 @@
+.box{
+    width: 1082px;
+    height: 333px;
+    color: red;
+    background-color: red;
+    margin: 30px;
+}
+.boxTwo{
+    background-color: blue;
+}
+.boxThree{
+  
+    background-color: green;
+    margin: 30px;
+}
+.images{
+    width: 1082px;
+    height: 333px;
+    margin: 30px;
+}
+.littleBox{
+    width: 246px;
+    height: 235px;
+    color: #D9D9D9;
+    background-color: #D9D9D9;
+    margin: 40px;
+   
+}
+
+.container{
+    background-color: #D9D9D9; 
+    width: 1159px; 
+    height: 1700px;
+    padding: 30px;
+}
+.bigBox{
+    width: 992px;
+    height: 225px;
+    background-color: #D9D9D9;
+    margin: 40px;
+}
