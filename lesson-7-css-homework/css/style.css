@@ -1,93 +1,95 @@
-.container{
+*{transition: all .1s ease-in;}
+
+.container {
     width: 793px;
     height: 507px;
     background: #3B3F45;
 }
-.container__title{
+
+.container__title {
     width: 793px;
     height: 82px;
-    background: #4A4F56;   
+    background: #4A4F56;
 }
 
-.title{
+.title {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: #FF8984;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF8984;
 }
 
-.text{
+.text {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 0px;
-/* identical to box height */
-display: flex;
-justify-content: center;
-align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+    /* identical to box height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-color: #FF8984;
+    color: #FF8984;
 }
 
-.smaller{
+.smaller {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 13px;
-display: flex;
-align-items: center;
-margin-left: 3px;
-color: #FFFFFF;
-
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+    color: #FFFFFF;
 }
 
-span{
+span {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-margin-left: 16px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    display: inline;
+    align-items: center;
+    margin-left: 16px;
+    color: #FFFFFF;
 }
 
-.tab{
+.tab {
     margin-top: 20px;
     margin-left: 129px;
 }
 
-.tab__item{
+.tab__item {
     width: 534px;
     height: 45px;
     background: #88839E;
     display: flex;
 }
-.tab__item:nth-child(2n){
+
+.tab__item:nth-child(2n) {
     background: #7A7593;
 }
-.tab__item-check:checked ~ span {
+
+.tab__item-check:checked + span {
     text-decoration: line-through;
-/* identical to box height */
-color: #9B96AC;
+    color: #9B96AC;
 }
 
-.tab__item:nth-child(4){
+.tab__item:hover{
     background: #625E77;
     border-top: 3px solid white;
     border-bottom: 3px solid white;
 }
 
-.bon{
+.bon {
     margin-top: 45px;
     margin-left: 129px;
     width: 534px;
@@ -95,14 +97,25 @@ color: #9B96AC;
     background: #4A4F56;
     border: none;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF8984;
+}
 
-/* identical to box height */
-display: flex;
-align-items: center;
-justify-content: center;
-color: #FF8984;
+.bon:active{
+    color: hsl(2, 94%, 69%);
+    box-shadow: 2px 2px 5px #FF8984;;
+}
+
+.bon::before{
+    content: 'Bon appetit';
+}
+
+.bon::after{
+    content: ' :)';
 }
