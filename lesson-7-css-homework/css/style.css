@@ -72,6 +72,7 @@ span {
     height: 45px;
     background: #88839E;
     display: flex;
+    border: 3px solid transparent;
 }
 
 .tab__item:nth-child(2n) {
