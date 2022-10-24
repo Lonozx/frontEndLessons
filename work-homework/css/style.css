@@ -1,0 +1,83 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Graphik LC;
+    src: url(graphiklcweb_medium.ttf);
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    background: #001A35;
+}
+
+button {
+    border-radius: 5px;
+    border: transparent;
+    display: block;
+}
+
+/* Reset CSS Ended */
+
+/* Main classes structure */
+
+.text {
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text__bottom{
+    padding: 0px 10px;
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.title {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.floatingImage {
+    width: 145%;
+    margin-left: -65px;
+    margin-top: -220px;
+    margin-bottom: -320px;
+}
+
+.container {
+    padding: 92px 33px;
+}
+
+.courses {
+    display: flex;
+}
+
+.courses__bottom {
+    background: rgba(73, 168, 213, 0.2);
+    width: 168px;
+    height: 66px;
+    margin: -71px 15px 0px 15px;
+    padding: 15px 20px;
+}
+
+.buttonQuery{
+    width: 345px;
+    height: 74px;
+    background: #E4E541;
+    color: #002E5D;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 24px;
+}

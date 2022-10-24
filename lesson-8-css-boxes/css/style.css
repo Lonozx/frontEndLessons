@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: #C4C4C4;
+    padding: 106px;
+}
+
+.container__redbox{
+    margin: 79px;
+    height: 164px;
+    background: #DC3F3F;
+}
+
+.content__justify{
+    display: flex;
+}
+
+.container__redbox-small{
+    width: 200px;
+    height: 165px;
+    margin-right: 170px;
+    margin-left: 50px;
+    background: #000;
+}

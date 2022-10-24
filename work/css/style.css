@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+button{
+    border: none;
+    background: transparent;
+    display: block;
+}
+
+body{
+    background: #001A35;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    padding: 0 15px;
+    max-width: 375px;
+    
+    margin: 0 auto;  
+}
+
+.button{
+
+}
+.button:hover{
+    background: #f1f123;
+}
+
+.page-wrapper{
+    overflow: hidden;
+}
+/* Global Style End */
+
+
+/* Hero section  */
+
+.header{
+    padding-top: 92px;
+    padding-bottom: 62px;
+}
+
+.header__title{
+font-weight: 400;
+font-size: 42px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 11px;
+
+color: #FFFFFF;
+
+}
+
+.header__img{
+    width: 155%;
+    margin-left: -95px;
+    margin-top: -220px;
+    margin-bottom: -320px;
+}
+
+.header__row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header__ror-item{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+background: rgba(73, 168, 213, 0.2);
+padding: 14px 12px;
+color: #FFFFFF;
+
+}
+
+.header__button{
+    background: #E4E541;
+    width: 100%;
+
+}
