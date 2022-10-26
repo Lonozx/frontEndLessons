@@ -81,7 +81,7 @@ ul {
 }
 
 .container__section{
-    width: 1440px;
+    width: 1250px;
 }
 .container__menu-buttons {
     margin-top: 16px;
@@ -102,7 +102,7 @@ ul {
     line-height: 54px;
 }
 .title__img{
-    margin: -330px 240px 75px 575px;
+    margin: -330px 120px 75px 575px;
 }
 
 .title__bottom{
