@@ -131,8 +131,9 @@ line-height: 44px;
 }
 
 .container__list{
-    margin-left: 26px;
+    margin-left: 20px;
     margin-top: 50px;
+    width: 300px;
 }
 
 .small-image{
@@ -169,3 +170,40 @@ margin-bottom: 16px;
 .button__last:hover{
     box-shadow: 5px 5px 5px #2F281E;
 }
+
+.container__footer{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.container__footer-img{
+    width: 100%;
+    width: 200px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button__footer{
+    width: 180px;
+    height: 50px; 
+}
+.button__footer:hover{
+    box-shadow: 5px 5px 5px #2F281E;
+}
+
+.lineH{
+    line-height: 35px;
+}
+
+.input{
+    padding: 10px 10px;
+    width: 250px;
+    padding: 5px;
+}
+
+
