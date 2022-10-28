@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+*{transition: all .1s ease-in;}
+
+img {
+    width: 100%;
+}
+
+body {
+    background: #F6F6F6;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+hr {
+    width: 35px;
+}
+
+.container__navigation {
+    background: #FFF;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10px 10px;
+}
+
+button {
+    border: transparent;
+}
+
+.container__navbar-button {
+    background: #F6F6F6;
+    padding: 10px 10px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.container__content {
+    padding: 60px 0px;
+}
+
+.container__content-title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.container__content-article {
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    min-width: 450px;
+}
+
+.container__img {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.container__img-box {
+    width: 270px;
+    height: 270px;
+    background: aqua;
+    align-items: center;
+}
+
+.container__img-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.text {
+    line-height: 22px;
+    color: #646464;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.text__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #3C3C3C;
+}
+
+.text__menu {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #3C3C3C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+@media (min-width:655px) {}
+
+.container__footer {
+    display: flex;
+    justify-content: center;
+    background: #FFF;
+    padding: 10px 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text__menu:hover{
+    color: #18B5DC;
+    cursor: pointer;
+}
+
+.container__navbar-button:hover{
+    color: #FFF;
+    background: #18B5DC;
+}
+
+.social-media:hover{
+    
+}
