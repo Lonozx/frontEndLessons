@@ -147,5 +147,6 @@ button {
 }
 
 .social-media:hover{
-    
+    /* mask-image: url(./img/twitter_hover.png); */
+    background: #18B5DC;
 }
