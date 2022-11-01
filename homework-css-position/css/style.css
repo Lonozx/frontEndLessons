@@ -12,6 +12,16 @@
     z-index: 1;
 }
 
+header{
+    position: fixed;
+}
+
+body{
+    background-image: url(/img/bg-picture.png);
+    /* padding: 26px 120px 40px; */
+    background-attachment: fixed;
+}
+
 ul{
     list-style-type: none;
 }
@@ -146,8 +156,7 @@ padding: 10px 0px;
 }
 
 .slider{
-    background-image: url(/img/bg-picture.png);
-    position: absolute;
+      position: absolute;
     z-index: 0;
 }
 
