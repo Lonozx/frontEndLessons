@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    /* background: #C9C9C9; */
+    position: fixed;
+    padding: 10px 10px;
+    left: 5%;
+    z-index: 1;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.li-e::after{
+    content: '';
+    display: block;
+    height: 1px;
+    background: grey;
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+.navbar__menu{
+    background: #C9C9C9;
+    /* width: 500px; */
+    height: 60px;
+}
+
+.navbar__lang {
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.navbar__title {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.navbar__logo{
+    position: absolute;
+    left: 250%;
+}
+
+.slider__container{
+    padding: 10px 10px;
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 423px;
+   }
+
+.slider__container-list{
+    position: sticky;
+    padding: 120px 55px;
+    top: 5px;
+    bottom: 5px;
+    font-family: 'Francois One';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #000000;
+}
+.container{
+    
+    /* display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+    align-items: flex-start; */
+    position: absolute;
+    top: 23%;
+    left: 35%;
+    transition: 50% 50%;
+}
+
+.li-title{
+    font-family: 'Francois One';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+padding: 30px 0px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.li-title::before{
+    content: '';
+    display: block;
+    height: 4px;
+    background: #000000;
+    width: 20%;
+    margin: 10px 0 15px;
+
+}
+
+.chapter-text{
+    font-family: 'Farro';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 30px;
+letter-spacing: 0.04em;
+
+color: #000000;
+}
+
+.simple-text{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 48px;
+/* or 171% */
+color: #000000;
+padding: 10px 0px;
+}
+
+.slider{
+    background-image: url(/img/bg-picture.png);
+    position: absolute;
+    z-index: 0;
+}
+
+.chapter-text{
+    vertical-align: top;
+    font-family: 'Farro';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 30px;
+letter-spacing: 0.04em;
+
+color: #000000; 
+}
