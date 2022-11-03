@@ -61,6 +61,13 @@ img{
     border-radius: 5px;
 }
 
+.container__images-last-box{
+    padding: 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
 .big-boba{
     width: 666px;
     height: 666px;
