@@ -9,17 +9,23 @@
     position: fixed;
     padding: 10px 10px;
     left: 5%;
-    z-index: 0;
+    z-index: 1;
 
 }
 
+.bg{
+    z-index: 0;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+}
 header{
     position: fixed;
     background: #fff;
 }
 
 body{
-    background-image: url(/img/bg-picture.png);
+    /* background-image: url(/img/bg-picture.png); */
     /* padding: 26px 120px 40px; */
     background-attachment: fixed;
 }
