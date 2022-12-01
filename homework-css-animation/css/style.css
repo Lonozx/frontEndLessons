@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: wheat;
+}
+
+.container {
+    padding: 10px 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100%;
+}
+
+.container__card {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    /* height: 400px;
+    width: 300px; */
+    width: 239px;
+    height: 335px;
+    z-index: 99;
+    background-image: url("../img/backs.png");
+    /* background: rgb(143, 99, 99); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 239px 335px;
+}
+
+
+.container__card:hover,
+.container__card:active {
+    animation: flip-card 4s normal;
+    /* transition: all 1s ease-in-out; */
+}
+
+
+
+@keyframes flip-card {
+    0% {
+        transform: rotateY(0deg);
+
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    /* 75%{
+        transform: rotateY(0deg);
+        } */
+    98% {
+        /* transform: rotateY(180deg); */
+        background-image: url("../img/2S.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 239px 335px;
+
+        z-index: 100;
+    }
+
+    99% {
+        transform: rotateY(90deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+        background-image: url("../img/backs.png");
+    }
+}
+
+@media (max-width:768px) {
+}

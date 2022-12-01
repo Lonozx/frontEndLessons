@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s all ease-in-out;
+}
+
+.page-wrapper{
+    display: flex;
+    flex-direction: row;
+    background: #161D31;
+}
+
+
+.bordered::after{
+    content: '';
+    width: 100%;
+    border-bottom: #9E8CFC dashed 3px;
+}
+
+.listed-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.background{
+    padding: 10px 0px;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+
+    gap: 20px;
+    flex-direction: column;
+    width: 80px;
+    height: 1100px;
+    background: #283046;
+    
+}
+
+.container__header{
+    padding: 10px 10px;
+}
+
+.img-back{
+    width: 1100px;
+}
+
+.listed-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.listed-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo-img{
+    padding: 20px 30px;
+
+}
+
+.container__listed:hover .listed-item__desc{
+    display: flex;
+}
+
+.container:hover{
+    width: 110px;
+}
+
+.container:hover .img-listed{
+   width: 42px;
+   height: 42px;
+}
+
+.container:hover .arrow{
+    animation: arrow-slide 2s forwards;
+}
+
+
+.listed-item:hover{
+    background: #9E8CFC;
+box-shadow: 0px 0px 20px rgba(158, 140, 252, 0.7);
+}
+
+.arrow{}
+
+.img-listed{
+    width: 32px;
+    height: 32px;
+    align-self: center;
+}
+
+.listed-item__desc{
+    padding: 5px 18px;
+    display: none;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+/* text/gray-light */
+color: #BDBDBD;
+}
+
+@keyframes menu-slide {
+    0%{
+        transform: scale(1);
+    }   
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+@keyframes arrow-slide {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
