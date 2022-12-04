@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s all ease-in-out;
+}
+img{
+    width: 100%;
+}
+body{
+   background: #9789F9;
+}
+.container__box{
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+}
+.container__box-item{
+    height: 611px;
+    width: 370px;
+    min-width: 370px;
+    position: relative;
+    background: #F5F3F9;
+    background-image: url("../img/bg-image.png");
+    background-size: contain;
+    background-position-y: calc(370px - 230px);
+    background-repeat: no-repeat;
+    padding: 20px;
+    z-index: 1;
+}
+
+.box-item__title{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box-item__description{
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.button-place{
+    background: #6FCFFB;
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -25px;
+    color: white;
+    cursor: pointer;
+}
+
+.text-description{
+    text-align: start;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+}
+
+.bubble{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.popularity{
+    position: absolute;
+    top: 20px;
+    right: -80px;
+    /* z-index: 100; */
+    visibility: hidden;
+    /* -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000; */
+}
+
+.dolar{
+    color: #181818;
+    position: absolute;
+    top: 19px;
+    left: 103px;
+}
+
+.price{
+    font-size: 40px;
+}
+
+.container__box-item:hover{
+    /* Odd method */
+    /* height: 673px;
+    width: 400px; */
+    /* Related method tho */
+    animation: scaleBox 3s infinite;
+    z-index: 1;
+}
+
+.container__box-item:hover .button-place{
+     bottom: 55px;
+     background: #FD8D7B;
+}
+.container__box-item:hover .popularity{
+    z-index: 100;
+    visibility: visible;
+   
+}
+.container__box-item:hover .text-hidden{
+    color: #A9A9A9;
+}
+
+
+
+.pricetag{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue Thin';
+font-size: 25px; 
+}
+
+.text-hidden{
+    position: absolute;
+    bottom: 20px;
+    color: transparent;
+}
+
+.box-item__img{
+    position: absolute;
+    bottom: 80px;
+}
+
+@keyframes scaleBox {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.02);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
